@@ -1,0 +1,15 @@
+.bed_page {
+  width: 100%;
+  min-height: 100vh;
+  /* background: linear-gradient(45deg, #278c7a, #dbe6e8); */
+}
+.bed_page__states {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 60rem;
+  min-height: 100vh;
+  margin: auto;
+  padding-bottom: 1rem;
+  grid-gap: 4rem;
+  justify-items: center;
+}

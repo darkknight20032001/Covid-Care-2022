@@ -1,0 +1,15 @@
+.covidStatus h1 {
+  font-size: 3.5rem;
+}
+.covidStatusStates .covidImg {
+  width: 33rem;
+  height: 21rem;
+}
+.covidStatusStates_select {
+  margin-top: 3rem;
+}
+.covidStatusStates_select p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

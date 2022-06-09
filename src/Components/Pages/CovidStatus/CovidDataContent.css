@@ -1,0 +1,24 @@
+.covidDataContent {
+ width: 12rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50%;
+  padding: 11px;
+  border-top: 10px solid #ff9933;
+  border-bottom: 10px solid #138808;
+}
+.covidDataContent img {
+  width: 5rem;
+  height: 5rem;
+}
+.covidDataContent p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.covidDataContent span {
+  font-weight: bold;
+  color: #5d12a3;
+}

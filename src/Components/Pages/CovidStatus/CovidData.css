@@ -1,0 +1,5 @@
+.covidData {
+  display: flex;
+  margin: 3rem auto;
+  justify-content: space-around;
+}

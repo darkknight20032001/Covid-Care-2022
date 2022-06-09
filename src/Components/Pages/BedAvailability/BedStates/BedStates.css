@@ -1,0 +1,46 @@
+.bed_states {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bed_states h1 {
+  padding-top: 1rem;
+  font-family: 'Arvo', serif;
+}
+.bed_states table,
+.bed_states th,
+.bed_states td {
+  border: 1px solid black;
+}
+.bed_states td {
+  padding: 4px;
+}
+.bed_states table {
+  width: 45rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.bed_states button {
+  width: 8rem;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgb(255, 49, 49);
+  color: white;
+  border: none;
+}
+.bed_states .disabled_btn {
+  opacity: 0.5;
+}
+.bed_states button:hover {
+  background-color: rgb(247, 74, 74);
+}
+
+/* Modal */
+.disabled_message {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.disabled_message p {
+  margin-top: 10px;
+}

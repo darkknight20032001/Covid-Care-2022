@@ -1,0 +1,27 @@
+.vaccination-container {
+  display: flex;
+  flex-direction: column;
+}
+.vaccination-container h1{
+padding-top: 2.5rem;
+font-size: 3rem;
+font-family: 'Arvo', serif;
+color: red;
+
+}
+.vaccination-container__content {
+  margin: 2.8rem 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.vaccination-container__image img {
+  width: 35rem;
+  height: 30rem;
+}
+.vaccination-container__inputs {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
